@@ -1,0 +1,79 @@
+*{
+margin:0;
+padding:0;
+}
+
+body {
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ background-color: rgb(255, 252, 226);
+}
+
+
+.container {
+   
+}
+
+nav {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+    
+}
+
+a {
+    background-color: rgb(255, 252, 226);
+    border: 2px  rgb(136, 29, 44) solid;
+    padding:1px 50px 1px 50px;
+    text-decoration: none;
+    color:rgb(136, 29, 44) ;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+main {
+    background-image: url(assets/Racheal.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height:500px;
+}
+main img {
+    width:100%;
+    auto:auto;
+
+}
+
+section {
+    display:flex;
+    gap:20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:40px;
+}
+
+section img {
+    width:40%;
+    height:auto;
+    box-sizing: border-box;
+}
+
+section p {
+    color:rgb(136, 29, 44);
+    width:60%;
+    text-align: center;
+    line-height: 25px;
+}
+
+.socialmedia {
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialmedia img {
+    width:30px;
+    height:30px;
+}
